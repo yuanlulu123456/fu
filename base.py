@@ -11,7 +11,7 @@ class Base:
                 .until(lambda x: x.find_element(*loc)))
 
 
-    # 输入 方法22222222222222222222222222222222222222222
+    # 输入 方法 3333333333333333
 
 
     def base_input(self, loc, value):
