@@ -5,7 +5,7 @@ class Base:
     def __init__(self, driver):
         self.driver = driver
 
-    # 查找元素
+    # 查找元素   11111111111111111111111111
     def base_find(self, loc, timeout=30, poll=0.5):
         return (WebDriverWait(self.driver, timeout=timeout, poll_frequency=poll)
                 .until(lambda x: x.find_element(*loc)))
